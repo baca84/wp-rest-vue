@@ -1,0 +1,18 @@
+.b-header {
+	.m-logo {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 10;
+		display: table;
+		width: 90px;
+		height: 80px;
+		text-align: center;
+		background-color: $cl-grey9E;
+		a {
+			display: table-cell;
+			width: 100%;
+			vertical-align: middle;
+		}
+	}
+}

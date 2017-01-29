@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #003375;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="Prostokąt_2" data-name="Prostokąt 2" class="cls-1" x="17" width="15" height="15"/>
+  <rect id="Prostokąt_2_kopia" data-name="Prostokąt 2 kopia" class="cls-1" x="17" y="17" width="15" height="15"/>
+  <rect id="Prostokąt_2_kopia_2" data-name="Prostokąt 2 kopia 2" class="cls-1" y="17" width="15" height="15"/>
+  <path id="Elipsa_1" data-name="Elipsa 1" class="cls-2" d="M0,12.147A15.373,15.373,0,0,1,11.843,0H15V15H0V12.147Z"/>
+</svg>
