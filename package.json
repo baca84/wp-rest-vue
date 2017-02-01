@@ -5,8 +5,8 @@
   "author": "Przemysław Wajda <pwajda@enp.pl>",
   "private": true,
   "scripts": {
-    "build": "webpack",
-    "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot"
+    "build": "webpack --config webpack.config.prod.js",
+    "dev": "webpack-dev-server --hot --inline"
   },
   "dependencies": {
     "body-parser": "^1.15.2",

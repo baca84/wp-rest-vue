@@ -57,7 +57,7 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.DefinePlugin({
-			PRODUCTION: JSON.stringify(false),
+			PRODUCTION: JSON.stringify(true),
 			VERSION: JSON.stringify("1.0"),
 			"typeof window": JSON.stringify("object")
 		})

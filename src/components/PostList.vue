@@ -7,7 +7,7 @@
 						{{ error }}
 					</div>
 				   <div class="is-loading" v-if="loading">
-				   		<img src="src/common/images/loader.gif" alt="">
+				   		<img :src="imgPath +'/loader.gif'" alt="">
 				   </div>
 				   <div v-else>
 						<div v-if="postFiltered">
@@ -24,13 +24,14 @@
 import request from 'superagent';
 import store from '../vuex/store';
 import Post from './Post.vue';
-
+import config from '../config';
 
 export default {
 	data() {
 			return {
 				loading: false,
-				error: null
+				error: null,
+				imgPath: config.imagePath
 			}
 		},
 	

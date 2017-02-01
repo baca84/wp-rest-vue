@@ -5,11 +5,11 @@
 				<div class="b-header_wrapper clearfix2">
 					<div itemscope="" itemtype="http://schema.org/Organization" class="m-logo">
 						<a itemprop="url" href="/">
-							<img src="src/common/images/logos/logo.png" alt="">
+							<img :src="imgPath +'logos/logo.png'" :alt="title">
 						</a>
 					</div>
 					<h1 class="m-typo m-typo_primary">
-						ENP Atoms
+						{{title}}
 					</h1>
 				</div>
 			</div>
@@ -18,13 +18,14 @@
 </template>
 
 <script>
-import request from 'superagent';
 import store from '../vuex/store';
+import config from '../config';
 
 export default {
 	data() {
 		return {
-			
+			title: 'ENP Atoms',
+			imgPath: config.imagePath
 		}
 	},
 
