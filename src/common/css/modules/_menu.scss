@@ -1,7 +1,9 @@
 .m-menu {
 	padding: 0;
+	margin-bottom: 20px;
 	.m-menu {
-		margin-left: 20px;
+		margin-left: 0;
+		margin-bottom: 0;
 	}
 	.m-menu_item {
 		display: block;
@@ -10,6 +12,7 @@
 		text-align: left;
 		border: 0;
 		a {
+			font-weight: 400;
 			&:hover {
 				color: $cl-secondary;
 				text-decoration: none;
@@ -48,7 +51,8 @@
 		}
 		p {
 			position: relative;
-			cursor: pointer;
+			cursor: default;
+			font-weight: 700;
 			i {
 				position: absolute;
 				right: 15px;
@@ -67,7 +71,7 @@
 			display: block;
 			padding: 10px 10px 10px 30px;
 			font-size: 16px;
-			font-weight: 400;
+			
 			color: $cl-grey4;
 			.is-svgIcon {
 				position: absolute;
