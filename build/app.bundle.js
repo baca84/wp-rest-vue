@@ -12055,7 +12055,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\PostList.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\PostList.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -12066,9 +12066,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-d2b76fc6", __vue_options__)
+	    hotAPI.createRecord("data-v-4dc45eca", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-d2b76fc6", __vue_options__)
+	    hotAPI.reload("data-v-4dc45eca", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] PostList.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -12142,7 +12142,7 @@
 				var self = this;
 				self.error = null;
 				self.loading = true;
-				_superagent2.default.get(self.api + 'posts?tags=4').end(function (err, res) {
+				_superagent2.default.get(self.api + 'posts').end(function (err, res) {
 					self.loading = false;
 					if (err || !res.ok) {
 						self.error = err.toString();
@@ -13798,7 +13798,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\Post.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\Post.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -13809,9 +13809,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-16c9addf", __vue_options__)
+	    hotAPI.createRecord("data-v-c831b546", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-16c9addf", __vue_options__)
+	    hotAPI.reload("data-v-c831b546", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] Post.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -13902,7 +13902,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-16c9addf", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-c831b546", module.exports)
 	  }
 	}
 
@@ -13951,7 +13951,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-d2b76fc6", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-4dc45eca", module.exports)
 	  }
 	}
 
@@ -13978,7 +13978,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\PostView.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\PostView.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -13989,9 +13989,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-e49312b8", __vue_options__)
+	    hotAPI.createRecord("data-v-5fa001bc", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-e49312b8", __vue_options__)
+	    hotAPI.reload("data-v-5fa001bc", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] PostView.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -14124,7 +14124,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\AppMenu.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\AppMenu.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -14135,9 +14135,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-5bbdb49e", __vue_options__)
+	    hotAPI.createRecord("data-v-db94d51a", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-5bbdb49e", __vue_options__)
+	    hotAPI.reload("data-v-db94d51a", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] AppMenu.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -14284,7 +14284,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-5bbdb49e", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-db94d51a", module.exports)
 	  }
 	}
 
@@ -14333,7 +14333,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-e49312b8", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-5fa001bc", module.exports)
 	  }
 	}
 
@@ -14360,7 +14360,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\PageView.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\PageView.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -14371,9 +14371,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-45c0e193", __vue_options__)
+	    hotAPI.createRecord("data-v-ef8b2bde", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-45c0e193", __vue_options__)
+	    hotAPI.reload("data-v-ef8b2bde", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] PageView.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -14526,7 +14526,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-45c0e193", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-ef8b2bde", module.exports)
 	  }
 	}
 
@@ -14553,7 +14553,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\AppHeader.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\AppHeader.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -14564,9 +14564,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-c66f7542", __vue_options__)
+	    hotAPI.createRecord("data-v-ad0066be", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-c66f7542", __vue_options__)
+	    hotAPI.reload("data-v-ad0066be", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] AppHeader.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -14666,7 +14666,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-c66f7542", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-ad0066be", module.exports)
 	  }
 	}
 
@@ -14693,7 +14693,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "C:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\wp-rest-vue\\src\\components\\AppFooter.vue"
+	__vue_options__.__file = "C:\\xampp\\htdocs\\wp-rest-vue\\src\\components\\AppFooter.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 	
@@ -14704,9 +14704,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7b95e16d", __vue_options__)
+	    hotAPI.createRecord("data-v-ef652ea2", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-7b95e16d", __vue_options__)
+	    hotAPI.reload("data-v-ef652ea2", __vue_options__)
 	  }
 	})()}
 	if (__vue_options__.functional) {console.error("[vue-loader] AppFooter.vue: functional components are not supported and should be defined in plain js files using render functions.")}
@@ -14769,7 +14769,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-hot-reload-api").rerender("data-v-7b95e16d", module.exports)
+	     require("vue-hot-reload-api").rerender("data-v-ef652ea2", module.exports)
 	  }
 	}
 

@@ -40,7 +40,7 @@ export default {
 				var self = this;
 				self.error = null;
 				self.loading = true;
-				request.get(self.api+'posts?tags=4')
+				request.get(self.api+'posts')
 					.end(function(err, res) {
 						self.loading = false;
 						if (err || !res.ok) {
