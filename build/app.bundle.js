@@ -13915,7 +13915,7 @@
 	var config = {};
 	
 	if (true) {
-		config.imagePath = '/wp-content/themes/wp-rest-vue/src/common/images/';
+		config.imagePath = '/wp-content/themes/twentyseventeen/src/common/images/';
 	} else {
 		config.imagePath = '/src/common/images/';
 	}
@@ -14209,7 +14209,7 @@
 				var self = this;
 				self.error = null;
 				self.loading = true;
-				_superagent2.default.get(self.apiMenu + '3').end(function (err, res) {
+				_superagent2.default.get(self.apiMenu + '2').end(function (err, res) {
 	
 					self.loading = false;
 					if (err || !res.ok) {
@@ -14454,6 +14454,9 @@
 		computed: {
 			page: function page() {
 				return this.$store.getters.getPage;
+			},
+			api: function api() {
+				return this.$store.getters.getApi;
 			}
 		},
 		created: function created() {
@@ -14467,7 +14470,7 @@
 				var self = this;
 				self.error = null;
 				self.loading = true;
-				_superagent2.default.get(self.jsonPath + 'pages/' + this.$route.params.id).end(function (err, res) {
+				_superagent2.default.get(self.api + 'pages/' + this.$route.params.id).end(function (err, res) {
 					self.loading = false;
 					if (err || !res.ok) {
 						self.error = 'Can not load content...';

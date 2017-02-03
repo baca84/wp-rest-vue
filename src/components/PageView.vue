@@ -47,6 +47,9 @@ export default {
 	computed: {
 		page: function() {
 			return this.$store.getters.getPage;
+		},
+		api() {
+			return this.$store.getters.getApi
 		}
 	},
 	created: function() {
@@ -60,7 +63,7 @@ export default {
 			var self = this;
 			self.error = null; 
 			self.loading = true;
-			request.get(self.jsonPath +'pages/' + this.$route.params.id)
+			request.get(self.api + 'pages/' + this.$route.params.id)
 				.end(function(err, res) {
 					self.loading = false
 					if (err || !res.ok) { 

@@ -45,7 +45,7 @@ export default {
 			var self = this;
 				self.error = null;
 				self.loading = true;
-				request.get(self.apiMenu + '3')
+				request.get(self.apiMenu + '2')
 					.end(function(err, res) {
 					
 						self.loading = false;
